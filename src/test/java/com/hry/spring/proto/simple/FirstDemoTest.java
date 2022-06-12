@@ -29,7 +29,7 @@ public class FirstDemoTest {
         //模拟接收Byte[]，反序列化成Person类
         byte[] byteArray =person.toByteArray();
         MyPerson p2 = MyPerson.parseFrom(byteArray);
-        System.out.println("after :" +p2.toString());
+        System.out.println("after :" +p2.getEmail()+" "+p2.getName()+" "+p2.getId());
 	}
 
 }

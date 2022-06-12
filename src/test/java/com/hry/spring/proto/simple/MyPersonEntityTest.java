@@ -33,5 +33,5 @@ public class MyPersonEntityTest {
         MyPerson p2 = MyPerson.parseFrom(byteArray);
         System.out.println("after :" +p2.toString());
 	}
-	
+
 }

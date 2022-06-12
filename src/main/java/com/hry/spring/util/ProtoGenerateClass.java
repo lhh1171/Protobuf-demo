@@ -16,11 +16,11 @@ public class ProtoGenerateClass {
 
 	// specifies a directory in which to look for .proto files when resolving import directives
 	//	指定解析导入指令时要在其中查找 .proto 文件的目录
-	private static final String IMPOR_TPROTO = "/MyProject/github_study/spring_boot/protobuf";
+	private static final String IMPOR_TPROTO = "/MyProject/protobuf";
 	// 生成java类输出目录
-	private static final String JAVA_OUT = "/MyProject/github_study/spring_boot/protobuf/target";
+	private static final String JAVA_OUT = "/MyProject/protobuf/src/main/java";
 	// 指定proto文件
-	private static final String protos = "/MyProject/github_study/spring_boot/protobuf/src/main/java/com/hry/spring/*/*/*.proto";
+	private static final String protos = "/MyProject/protobuf/src/main/resources/com/hry/spring/proto/simple/firstDemo.proto";
 			
 	public static void main(String[] args) throws IOException {
 		List<String> lCommand = new ArrayList<String>();
